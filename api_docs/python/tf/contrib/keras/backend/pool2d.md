@@ -1,0 +1,43 @@
+<div itemscope itemtype="http://developers.google.com/ReferenceObject">
+<meta itemprop="name" content="tf.contrib.keras.backend.pool2d" />
+</div>
+
+# tf.contrib.keras.backend.pool2d
+
+``` python
+pool2d(
+    x,
+    pool_size,
+    strides=(1, 1),
+    padding='valid',
+    data_format=None,
+    pool_mode='max'
+)
+```
+
+
+
+Defined in [`tensorflow/contrib/keras/python/keras/backend.py`](https://www.tensorflow.org/code/tensorflow/contrib/keras/python/keras/backend.py).
+
+2D Pooling.
+
+#### Arguments:
+
+    x: Tensor or variable.
+    pool_size: tuple of 2 integers.
+    strides: tuple of 2 integers.
+    padding: one of `"valid"`, `"same"`.
+    data_format: one of `"channels_first"`, `"channels_last"`.
+    pool_mode: one of `"max"`, `"avg"`.
+
+
+#### Returns:
+
+    A tensor, result of 2D pooling.
+
+
+#### Raises:
+
+    ValueError: if `data_format` is neither `channels_last` or
+    `channels_first`.
+    ValueError: if `pool_mode` is neither `max` or `avg`.

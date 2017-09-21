@@ -1,0 +1,23 @@
+<div itemscope itemtype="http://developers.google.com/ReferenceObject">
+<meta itemprop="name" content="tf.bitwise" />
+</div>
+
+# Module: tf.bitwise
+
+
+
+Defined in [`tensorflow/python/ops/bitwise_ops.py`](https://www.tensorflow.org/code/tensorflow/python/ops/bitwise_ops.py).
+
+Operations for manipulating the binary representations of integers.
+
+
+## Functions
+
+[`bitwise_and(...)`](../tf/bitwise/bitwise_and.md): Elementwise computes the bitwise AND of `x` and `y`.
+
+[`bitwise_or(...)`](../tf/bitwise/bitwise_or.md): Elementwise computes the bitwise OR of `x` and `y`.
+
+[`bitwise_xor(...)`](../tf/bitwise/bitwise_xor.md): Elementwise computes the bitwise XOR of `x` and `y`.
+
+[`invert(...)`](../tf/bitwise/invert.md): Flips all bits elementwise.
+
